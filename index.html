@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário de 15 Anos da Manu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>15 Anos da Manu</h1>
+            <p>Manuela está completando 15 anos e quer celebrar com você!</p>
+        </header>
+        
+        <section class="info-section">
+            <h2>Detalhes do Evento</h2>
+            
+            <div class="info-item">
+                <div class="info-icon">📅</div>
+                <div>
+                    <strong>Data:</strong> Junho de 2026 (data a confirmar)
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                    <strong>Local:</strong> Área de eventos no Caminho do Vinho<br>
+                    <span>São José dos Pinhais - PR</span><br>
+                    <a href="https://www.google.com/maps/search/?api=1&query=LAT,LNG" target="_blank" rel="noopener noreferrer" class="maps-link">Abrir no Google Maps</a>
+                </div>
+            </div>
+            
+            <div class="info-item">
+                <div class="info-icon">⏰</div>
+                <div>
+                    <strong>Horário:</strong> A partir das 19h
+                </div>
+            </div>
+        </section>
+        
+        <section class="form-section">
+            <h2>Confirmação de Presença</h2>
+            <p>Confirmar sua presença nos ajuda a organizar melhor a festa!</p>
+            
+            <div id="formulario-pessoas">
+                <!-- Formulários de pessoas serão adicionados aqui -->
+            </div>
+            
+            <button id="adicionar-pessoa" class="btn btn-secondary">Adicionar outra pessoa</button>
+            
+            <div class="form-group" style="margin-top: 20px;">
+                <button id="enviar-confirmacao" class="btn">Enviar Confirmação</button>
+            </div>
+        </section>
+        
+        <section class="verificacao-section">
+            <h2>Verificar Confirmação</h2>
+            <p>Digite o telefone para contato cadastrado para verificar confirmação ou alterar informações:</p>
+            
+            <div class="form-group">
+                <input type="tel" id="telefone-verificacao" placeholder="Telefone">
+            </div>
+            
+            <div class="form-group">
+                <button id="verificar-email" class="btn">Verificar</button>
+            </div>
+            
+            <div id="status-verificacao" class="status-confirmacao"></div>
+        </section>
+        
+        <section class="galeria-section">
+            <h2>Galeria de Fotos</h2>
+            <p>Confira as fotos do evento e adicione as suas!</p>
+            
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://placeholder-image-service.onrender.com/image/300x200?prompt=elegant%2015th%20birthday%20party%20decorations%20with%20pink%20and%20blue%20colors&id=1" alt="Decoração elegante de aniversário de 15 anos com cores rosa e azul">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://placeholder-image-service.onrender.com/image/300x200?prompt=birthday%20cake%20for%20a%20quincea%C3%B1era%20with%20elegant%20design&id=2" alt="Bolo de aniversário para debutante com design elegante">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://placeholder-image-service.onrender.com/image/300x200?prompt=party%20venue%20with%20elegant%20decor%20and%20lighting&id=3" alt="Local da festa com decoração elegante e iluminação">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://placeholder-image-service.onrender.com/image/300x200?prompt=group%20of%20friends%20celebrating%20at%20a%20birthday%20party&id=4" alt="Grupo de amigos comemorando em festa de aniversário">
+                </div>
+            </div>
+            
+            <div class="upload-section">
+                <h3>Compartilhe suas fotos</h3>
+                <p>Envie suas fotos para serem adicionadas à galeria oficial do evento!</p>
+                
+                <div class="form-group">
+                    <input type="file" id="upload-foto" accept="image/*">
+                </div>
+                
+                <div class="form-group">
+                    <button id="enviar-foto" class="btn">Enviar Foto</button>
+                </div>
+            </div>
+            
+            <div style="margin-top: 20px; text-align: center;">
+                <a href="https://drive.google.com" target="_blank" class="btn">Ver Todas as Fotos no Google Cloud</a>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2026 - Aniversário de 15 anos da Manu</p>
+        </footer>
+    </div>
+
+    <script src="bff.js" defer> </script>
+</body>
+</html>
