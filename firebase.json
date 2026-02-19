@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "manu-aniversario-15",
+    "site": "manu-15-anos-cwb",
     "public": "public",
     "ignore": [
       "firebase.json",

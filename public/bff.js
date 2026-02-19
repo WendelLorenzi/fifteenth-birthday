@@ -45,7 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <div class="form-group">
                 <label for="telefone-${contadorPessoas}">Telefone para contato *</label>
-                <input type="tel" id="telefone-${contadorPessoas}" placeholder="Ex: 43991819317 (sem espaços ou parênteses)" required>
+                <label class="small-label">Exemplo: 41995241542 (sem espaços ou parênteses).</label>
+                <input type="tel" id="telefone-${contadorPessoas}" placeholder="Coloque apenas um numero de telefone por família" required>
             </div>
         `;
         
